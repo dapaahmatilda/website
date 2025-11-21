@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshBite Smoothies</title>
+  <link rel="stylesheet" href="CSS1/webdesign.css">  
+</head>
+<body>
 
+    <header>
+        <h1>FreshBite Smoothies</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Healthy & Refreshing Smoothies</h2>
+        <p>Made with fresh fruits, zero preservatives, and lots of love.</p>
+        <button>Order Now</button>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-container">
+
+            <div class="menu-item">
+                <h3>Mango Delight</h3>
+                <p>A blend of ripe mango, yogurt & honey.</p>
+                <span class="price">GHS 20</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>Berry Blast</h3>
+                <p>Strawberries, blueberries & Greek yogurt.</p>
+                <span class="price">GHS 25</span>
+            </div>
+
+            <div class="menu-item">
+                <h3>Banana Energy</h3>
+                <p>Banana, peanut butter & milk.</p>
+                <span class="price">GHS 18</span>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>FreshBite Smoothies is dedicated to serving delicious, healthy, and affordable smoothies. 
+           We use 100% fresh fruits sourced from trusted local farmers in Ghana.</p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>📍 East Legon, Accra</p>
+        <p>📞+233 553551805 </p>
+        <p>📧 freshbreeze196@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>© 2025 FreshBite Smoothies</p>
+    </footer>
+
+</body>
+</html>
